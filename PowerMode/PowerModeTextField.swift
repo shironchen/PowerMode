@@ -40,7 +40,7 @@ public class PowerModeTextField: UITextField, UITextFieldDelegate {
         let convertedRect = convert(rect, to: superView)
         
         if PowerMode.isSparkActionEnabled {
-            SparkAction.shared.at(position: CGPoint(x: convertedRect.origin.x + 30, y: convertedRect.origin.y), with: PowerMode.sparkColors, in: superView)
+            SparkAction.shared.at(position: CGPoint(x: convertedRect.origin.x + 40, y: convertedRect.origin.y), with: PowerMode.sparkColors, in: superView)
         }
         
         if PowerMode.isShakeActionEnabled {

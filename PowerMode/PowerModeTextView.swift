@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class PowerModeTextView: UITextView, UITextViewDelegate {
+open class PowerModeTextView: UITextView, UITextViewDelegate {
     @IBOutlet public weak var pmTextViewDelegate: UITextViewDelegate?
     
     override public var delegate: UITextViewDelegate? {

@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class PowerModeTextField: UITextField, UITextFieldDelegate {
+open class PowerModeTextField: UITextField, UITextFieldDelegate {
     @IBOutlet public weak var pmTextFieldDelegate: UITextFieldDelegate?
     
     override public var delegate: UITextFieldDelegate? {
